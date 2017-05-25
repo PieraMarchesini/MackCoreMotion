@@ -52,7 +52,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Distance: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2i-9Z-IZS">
-                                <rect key="frame" x="70" y="507" width="76" height="21"/>
+                                <rect key="frame" x="70" y="507" width="289" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -66,7 +66,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="distance" destination="8bC-Xf-vdC" id="VPU-g5-TFH"/>
+                        <outlet property="distance" destination="o2i-9Z-IZS" id="Jna-3b-0do"/>
                         <outlet property="label" destination="lqU-VP-kpz" id="tFZ-c2-oZU"/>
                         <outlet property="pitchLabel" destination="dng-gf-WC6" id="Q1A-Fq-IdY"/>
                         <outlet property="rollLabel" destination="J8n-1c-vQ6" id="Of6-G2-krk"/>
