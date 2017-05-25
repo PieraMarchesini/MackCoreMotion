@@ -104,13 +104,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         self.view.backgroundColor = .red
         
-        distance.text = "\(Double((distanceMeters2)!))"
         
         if ((Double(distanceMeters!)) < Double(range)){
             //Point 1
             self.foundPoint1 = true
             view.backgroundColor = .green
-            distance.text = "\(Double((distanceMeters)!))"
+            distance.text = "c\(Double((distanceMeters)!))"
             
             self.foundPoint2 = false
             self.foundPoint3 = false
@@ -119,7 +118,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             //Point 2
             self.foundPoint2 = true
             view.backgroundColor = .green
-            distance.text = "\(Double((distanceMeters2)!))"
+            distance.text = "Distance: \(Double((distanceMeters2)!))"
             
             self.foundPoint1 = false
             self.foundPoint3 = false
@@ -128,7 +127,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             //Point 3
             self.foundPoint3 = true
             view.backgroundColor = .green
-            distance.text = "\(Double((distanceMeters3)!))"
+            distance.text = "Distance: \(Double((distanceMeters3)!))"
             
             self.foundPoint1 = false
             self.foundPoint2 = false
